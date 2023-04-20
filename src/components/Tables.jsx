@@ -29,7 +29,7 @@ function Table() {
         ))}
       </div>
         
-    <div className='flex justify-center bg-white p-2 rounded-md'>
+    <div className='flex justify-center  p-2 rounded-md'>
       < ToOtherData />
     </div>
 
