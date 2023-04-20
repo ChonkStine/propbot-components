@@ -14,7 +14,7 @@ function Table() {
 
   return (
     
-    <div className='flex flex-col gap-3 mx-2'>
+    <div className='flex flex-col gap-3 mx-1'>
       < Headings />
 
       <div className="grid grid-cols-2 md:grid-cols-1 gap-2">

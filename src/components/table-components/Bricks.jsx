@@ -9,19 +9,19 @@ function Brick({ name, email, company, isPayingMember }) {
         flex flex-col justify-center text-[rgb(130,130,130)]
       "
     >
-      <div className="px-3 flex gap-2 break-normal">
+      <div className="px-3 flex sm:gap-2 break-normal sm:flex-row flex-col :gap-[1px]">
         <span className="font-bold md:hidden">Name:</span>
         <span className="break-all">{name}</span>
       </div>
-      <div className="px-3 flex gap-2">
-        <span className="font-bold md:hidden">Company:</span>
+      <div className="px-3 flex sm:gap-2 sm:flex-row flex-col gap-[1px]">
+        <span className="font-bold md:hidden ">Company:</span>
         <span className="break-all">{company}</span>
       </div>
-      <div className="px-3 flex gap-2 ">
+      <div className="px-3 flex sm:gap-2 sm:flex-row flex-col gap-[1px]">
         <span className="font-bold md:hidden">Email:</span>
         <span className="break-all">{email}</span>
       </div>
-      <div className="px-3 flex gap-2">
+      <div className="px-3 flex sm:gap-2 sm:flex-row flex-col gap-[1px]">
         <span className="font-bold md:hidden">Membership:</span>
         <span className="break-all">{isPayingMember ? 'Premium' : 'Free'}</span>
       </div>
