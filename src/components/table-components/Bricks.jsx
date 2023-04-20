@@ -3,7 +3,7 @@ import React from 'react';
 function Brick({ name, email, company, isPayingMember }) {
   return (
     <div className="
-         min-h-[220px] py-8 px-[3vw] text-[12px] gap-[8px]
+         min-h-[220px] py-8 px-[3vw] text-[12px] gap-[8px] min-w-[45vw]
         bg-white rounded-xl
         md:grid md:justify-center md:items-center md:grid-cols-5 md:p-1 md:px-[5vw] md:min-h-[70px] md:min-w-[80%]
         flex flex-col justify-center text-[rgb(130,130,130)]
