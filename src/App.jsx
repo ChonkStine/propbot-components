@@ -34,20 +34,20 @@ function App() {
   ];
   
   return (
-    <div className="bg-neutral-200">
+    <div className="[&>*:nth-child(odd)]:bg-neutral-300 odd:bg-white [&>*:nth-child(even)]:bg-slate-300">
       <div className='min-h-screen flex justify-center items-center'>
         < Login />
       </div>
-      <div className='bg-slate-300 min-h-screen flex justify-center items-center'>
+      <div className='min-h-screen flex justify-center items-center'>
         < AfterLogin />
       </div>
       <div className='min-h-screen flex justify-center items-center '>
         < Signup />
       </div>
-      <div className='bg-slate-300 min-h-screen flex justify-center items-center py-8'>
+      <div className='min-h-screen flex justify-center items-center py-8'>
         < Pricing />
       </div>
-      <div className=' min-h-screen flex justify-center items-center'>
+      <div className='min-h-screen flex justify-center items-center'>
         < Tables data={data} />
       </div>
     </div>

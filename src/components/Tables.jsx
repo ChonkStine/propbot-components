@@ -34,7 +34,7 @@ function Table() {
     </div>
 
       <div className='flex justify-end'>
-          <button className="font-semibold text-[#fff] p-4 text-[12px] min-w-[100%] border-[1px] bg-[#b3b3b3] hover:bg-[#5f5f5f] px-[2vw] rounded-md hover:text-white">
+          <button className="font-semibold text-[#fff] p-4 text-[12px] min-w-[100%]  bg-[#b3b3b3] hover:bg-[#5f5f5f] px-[2vw] rounded-md hover:text-white">
             Add
           </button>
       </div>

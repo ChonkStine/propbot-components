@@ -21,7 +21,7 @@ function ToOtherData() {
             <p>3</p>
         </div>
         <div onClick={hehe} 
-        className='cursor-pointer select-none rounded-lg h-8 w-8 bg-[#b3b3b3] font-semibold text-white hover:bg-[#dadada] flex justify-center items-center text-[12px]'>
+        className='cursor-pointer select-none rounded-lg h-8 w-8 bg-[#b3b3b3] font-semibold text-white hover:bg-[#5f5f5f] flex justify-center items-center text-[12px]'>
             <p>4</p>
         </div>
         <div onClick={hehe} 
